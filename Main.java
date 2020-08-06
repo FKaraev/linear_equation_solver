@@ -58,8 +58,7 @@ public class Main {
 
         LinearEquationSolver solver = new LinearEquationSolver(matrix);
         solver.solve();
-
-        //System.out.println(solver.getSolutions());
+        
         System.out.println(matrix);
 
 
